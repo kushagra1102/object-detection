@@ -38,6 +38,6 @@ if click_image:
 if upload_image is not None:
     img = Image.open(upload_image)
     display_YOLO_trained_image(img,uploaded=True)
-        
+
 
 
