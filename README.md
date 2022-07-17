@@ -1,12 +1,12 @@
 # object-detection
 
-Implementing object detection models on a fashion products dataset : https://www.kaggle.com/datasets/nguyngiabol/colorful-fashion-dataset-for-object-detection
+Implementing object detection models on a fashion products dataset : https://fashionpedia.github.io/home/
 
 1. YOLOv5 model trained on this dataset!! 
+We have trained 4 different models of YOLOv5 and chose the best out of them - yolo_2_5k_100_epochs.ipynb
 
-2. MMDetection model is incomplete and yet to be trained.
-3. dataset.json is the annotations file of this dataset in COCO format for running the MMDetection model.
+2. Streamlit.py is the python script for a web app of the YOLO trained model.
 
-4. Streamlit_demo is the python script for a web app of the YOLO trained model.
+3. Color_classification is a multi class image classification model
 
 
